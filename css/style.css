@@ -544,7 +544,7 @@ h6 + .custom-top-2 {
 }
 
 .row-30 {
-	margin-bottom: -30px;
+	margin-bottom: -10px;
 }
 
 .row-30:empty {
@@ -552,7 +552,7 @@ h6 + .custom-top-2 {
 }
 
 .row-30 > * {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .row-40 {
@@ -3462,7 +3462,7 @@ textarea.form-input {
 
 /** @section Footers */
 .footer-classic {
-	padding: 60px 0;
+	padding: 10px 0;
 	background: #15c1e5;
 }
 
