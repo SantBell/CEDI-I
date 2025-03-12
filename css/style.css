@@ -497,6 +497,7 @@ h6 + .custom-top-2 {
 	font-weight: 700;
 	line-height: 26px;
 	letter-spacing: normal;
+	font-size: 30px;
 }
 
 .text-styling-2 {
@@ -504,6 +505,16 @@ h6 + .custom-top-2 {
 	font-weight: 400;
 	line-height: 26px;
 	letter-spacing: normal;
+	font-size: 25px;
+}
+
+.text-styling-3 {
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: normal;
+	font-size: 35px;
+	text-align: justify;
 }
 
 /** @section Row spacing */
@@ -1070,13 +1081,13 @@ h2,
 
 h3,
 .heading-3 {
-	font-size: 34px;
+	font-size: 45px;
 }
 
 @media (min-width: 1200px) {
 	h3,
 	.heading-3 {
-		font-size: 38px;
+		font-size: 35px;
 		line-height: 1;
 		text-align: center;
 	}
@@ -1506,7 +1517,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 @media (min-width: 768px) {
 	.box-tango-img {
-		margin-right: 30px;
+		margin: 0 30px 0 30px;
 	}
 	.box-tango-img + .box-tango-body {
 		margin-top: 0;
@@ -5549,7 +5560,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-button-prev::before, .swiper-container-rtl .swiper-button-next::before {
-	content: "\f053";
+	content: "\f190";
 }
 
 @media (min-width: 1600px) {
@@ -5574,7 +5585,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-button-next::before, .swiper-container-rtl .swiper-button-prev::before {
-	content: "\f054";
+	content: "\f18e";
 }
 
 @media (min-width: 1600px) {
