@@ -485,7 +485,7 @@ h6 + .custom-top-2 {
 }
 
 .text-fourth {
-	color: #15c1e5;
+	color: #d8e515;
 }
 
 .text-gray-700 {
@@ -2418,12 +2418,12 @@ hr {
 
 .button-primary:hover, .button-primary:active, .button-primary.active {
 	color: #ffffff;
-	background-color: #15c1e5;
-	border-color: #15c1e5;
+	background-color: #d8e515;
+	border-color: #d8e515;
 }
 
 .button-primary.button-ujarak::before {
-	background: #15c1e5;
+	background: #d8e515;
 }
 
 .button-primary.button-zakaria:after {
@@ -2438,12 +2438,12 @@ hr {
 
 .button-secondary:hover, .button-secondary:active, .button-secondary.active {
 	color: #ffffff;
-	background-color: #15c1e5;
-	border-color: #15c1e5;
+	background-color: #d8e515;
+	border-color: #d8e515;
 }
 
 .button-secondary.button-ujarak::before {
-	background: #15c1e5;
+	background: #d8e515;
 }
 
 .button-secondary.button-zakaria:after {
@@ -2458,12 +2458,12 @@ hr {
 
 .button-third:hover, .button-third:active, .button-third.active {
 	color: #ffffff;
-	background-color: #15c1e5;
-	border-color: #15c1e5;
+	background-color: #d8e515;
+	border-color: #d8e515;
 }
 
 .button-third.button-ujarak::before {
-	background: #15c1e5;
+	background: #d8e515;
 }
 
 .button-third.button-zakaria:after {
@@ -2472,8 +2472,8 @@ hr {
 
 .button-fourth, .button-fourth:focus {
 	color: #ffffff;
-	background-color: #15c1e5;
-	border-color: #15c1e5;
+	background-color: #d8e515;
+	border-color: #d8e515;
 }
 
 .button-fourth:hover, .button-fourth:active, .button-fourth.active {
@@ -2487,7 +2487,7 @@ hr {
 }
 
 .button-fourth.button-zakaria:after {
-	background: #15c1e5;
+	background: #d8e515;
 }
 
 .button-default-outline, .button-default-outline:focus {
@@ -3478,7 +3478,7 @@ textarea.form-input {
 /** @section Footers */
 .footer-classic {
 	padding: 10px 0;
-	background: #15c1e5;
+	background: #d8e515;
 }
 
 /** @group Plugins */
@@ -3804,7 +3804,8 @@ html.tablet .ui-to-top {
 
 .rd-navbar {
 	display: none;
-	background: #15c1e5;
+	background: #d8e515;
+	/* background: #15c1e5; */
 }
 
 .rd-navbar-toggle {
@@ -4375,7 +4376,7 @@ html.tablet .ui-to-top {
 	top: 0;
 	right: 0;
 	z-index: 1080;
-	background: #15c1e5;
+	background: #d8e515;
 	box-shadow: 0px -2px 8px 0px rgba(255, 255, 255, 0.43);
 }
 
@@ -4430,7 +4431,7 @@ html.tablet .ui-to-top {
 	padding: 4px;
 	color: #ffffff;
 	box-shadow: none;
-	background: #15c1e5;
+	background: #d8e515;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -4449,7 +4450,7 @@ html.tablet .ui-to-top {
 	line-height: 34px;
 	transform: translateX(-110%);
 	color: #ffffff;
-	background: #15c1e5;
+	background: #d8e515;
 	border: 1px solid #e9e9e8;
 	box-shadow: none;
 }
@@ -4665,7 +4666,7 @@ html.tablet .ui-to-top {
 	opacity: 0;
 	visibility: hidden;
 	transition: .3s;
-	background-color: #15c1e5;
+	background-color: #d8e515;
 	box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
 }
 
@@ -9853,4 +9854,75 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   .whatsapp img{
 	width: 100px;
 	height: 100px;
+  }
+
+  /*******************************/
+/******** FAQ  Service *********/
+/*******************************/
+.faq-container {    
+	max-width: 100%;
+	margin: 0px auto 0 auto;
+	font-size: 25px;
+	transition: all 0.5s ease-out;
+  }
+  
+  details { 
+	background-color: #9bba1f;
+	width: 100%;
+	margin-bottom: 1rem;
+	border-radius: 8px;
+	border: 1px solid #9bba1f;
+	position: relative;
+	transition: all 0.5s ease-out;
+	
+  }
+  
+  details summary { 
+	font-weight: 400;
+	font-size: 25px;
+	padding: 1rem;
+	cursor: pointer;
+	list-style: none;
+	margin-right: 45px;
+	text-align: center;
+	transition: all 0.5s ease-out;
+  }
+  
+  details .p-faq {
+	padding: 1rem;
+	margin: 0 1rem 1rem 1rem;
+	border-left: 2px solid #9bba1f;
+	text-align: justify;
+	transition: all 0.5s ease-out;
+  }
+  
+  details:hover,
+  details[open] {
+	box-shadow: 5px 5px 15px #f73f3f;
+  }
+  
+  details summary::before {
+	position: absolute;
+	content: "\f0ab";
+	color: #f73f3f;
+	font-family: FontAwesome;
+	font-size: 1.75rem;
+	right: 16px;
+  }
+  
+  details[open] summary::before {
+	-webkit-animation: rotate-icono 0.3s ease-in-out both;
+	animation: rotate-icono 0.3s ease-in-out both;
+  }
+  
+  @keyframes rotate-icono {
+	0%{
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100%{
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	
   }
