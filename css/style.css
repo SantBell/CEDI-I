@@ -492,10 +492,6 @@ h6 + .custom-top-2 {
 	color: #777777;
 }
 
-.text-fondo{
-	background-color: #9bba1f63;
-}
-
 .text-styling-1 {
 	font-family: "Arial", sans-serif;
 	font-weight: 700;
@@ -9813,7 +9809,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .parallax-content {
 	position: relative;
 	z-index: 1;
-	background-color: #9bba1f67;
+	background-color: #1fbaad67;
 }
 
 .material-parallax img {
